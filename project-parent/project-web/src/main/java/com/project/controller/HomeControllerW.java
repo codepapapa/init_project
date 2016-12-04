@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
  * Created by lihengjie on 2016/12/3.
  */
 @Controller
-@RequestMapping("/home")
+@RequestMapping("/web/home")
 public class HomeControllerW {
     private Logger logger = Logger.getLogger(HomeControllerW.class);
     @RequestMapping("/index")

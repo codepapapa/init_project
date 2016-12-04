@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Created by lihengjie on 2016/12/3.
  */
 @Controller
-@RequestMapping("/order")
+@RequestMapping("/web/order")
 public class OrderControllerW {
 
     private Logger logger = Logger.getLogger(OrderControllerW.class);

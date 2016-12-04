@@ -85,13 +85,13 @@
             <mvc:mapping path="/"/>
             <mvc:mapping path="/order/**"/>
             <mvc:exclude-mapping path="/login"/>
-            <mvc:exclude-mapping path="/home/**"/>
+            <mvc:exclude-mapping path="/web/home/**"/>
             <bean class="com.project.interceptor.FrontInterceptor"></bean>
         </mvc:interceptor>
     </mvc:interceptors>
-    <mvc:resources mapping="/js/**" location="/static/js/"/>
+<!--    <mvc:resources mapping="/js/**" location="/static/js/"/>
     <mvc:resources mapping="/styles/**" location="/static/css/"/>
-    <mvc:resources mapping="/images/**" location="/static/img/"/>
+    <mvc:resources mapping="/images/**" location="/static/img/"/>-->
 
     <mvc:annotation-driven/>
 </beans>

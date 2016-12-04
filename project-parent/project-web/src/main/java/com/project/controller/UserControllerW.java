@@ -14,6 +14,7 @@ import java.util.UUID;
  * Created by lihengjie on 2016/12/1.
  */
 @Controller
+@RequestMapping("/web/user")
 public class UserControllerW {
     private Logger logger = Logger.getLogger(UserControllerW.class);
     @Autowired
